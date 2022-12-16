@@ -118,7 +118,7 @@ if selected == "Blog":
             }
             </style> """,
                         unsafe_allow_html=True)
-        components.iframe("https://streamlit.io",height =1000, scrolling =True)
+        components.iframe("https://zerohedge.com",height =1000, scrolling =True)
         
 ######################
 # Contact
