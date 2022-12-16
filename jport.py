@@ -27,7 +27,6 @@ if selected == "Home":
     with col1:
         st.write('')
         st.write('')
-        st.image('/Users/josephbiancamano/Downloads/jport2.png')
 
     with col2:
         st.title("Joseph Biancamano")
