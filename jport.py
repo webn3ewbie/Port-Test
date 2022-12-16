@@ -121,7 +121,7 @@ if selected == "Blog":
         
        
        
-        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/?embedded=true",height=1000)
+        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/",height=1000)
         
 ######################
 # Contact
