@@ -6,7 +6,6 @@ st.set_page_config(
     page_title="Joseph Biancamano",  
     layout="wide")
 
-
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
@@ -49,13 +48,9 @@ if selected == "Home":
         st.markdown('<p class="font"> I am skilled in Python, with an emphasis in Pandas, Numpy, and Streamlit. I am an active learner, currently studying machine learning, algorithms, and blockchain.</p>',unsafe_allow_html=True)
         st.markdown('<p class="font">I enjoy furthering my knowledge and experience in financial analytics. Current passions are time series analysis andextracting data insights through statistical techniques and quantitative methods that enhance decision-making and drive competitive growth.</p>',unsafe_allow_html=True)
         st.markdown('<p class="font"> I am seeking a position where I can use my skills to add business value and contribute to the success of my team. Eager to connect with you to learn more about what I can do to provide data-centric solutions for your organization.</p>',unsafe_allow_html=True) 
-                       
-# Projects
    
 if selected == "Projects":
     
-    
-# NFA
     with st.container():
         st.write("---")
         st.header("My Projects")
@@ -73,16 +68,13 @@ if selected == "Projects":
         st.markdown('<p class="font"> Some Libraries used:  streamlit, pandas, datetime, matplotlib, plotly, Openbb </p>',unsafe_allow_html=True)
         st.subheader("[GitHub Repo ](https://github.com/webn3ewbie/OpenBBxStreamlit)")
 
-
-        
     with st.container():
             st.subheader("[ExtractAlpha](https://equities.streamlit.app)")
             components.iframe("https://equities.streamlitapp.com/?embedded=true",height =500)
             st.markdown('<p class="font"> ExtractAlpha is an open-source Streamlit app built specifically to analyze equities, bonds, commodities, currencies, and cryptos. ExtractAlpha supports any asset available on YahooFinance.com. ExtractAlpha consists of multiple unique dashboards that feature Asset Returns, Asset Price Comparisons, Asset Price Predictions, Monte Carlo Simulation, and Equity Fundamental Analysis. The Asset Price Prediction leverages Facebook Prophet to predict prices up to 5 years in the future. The model is trained from data of the assets daily opening and closing price based on the time period entered by the user. Select a dashboard and see what ExtractAlpha can do! </p>',unsafe_allow_html=True)
             st.markdown('<p class="font"> Some Libraries used: streamlit, datetime, pandas, plotly, prophet, numpy, seaborn, scipy, yfinance </p>',unsafe_allow_html=True)
-            st.subheader("[GitHub Repo ](https://github.com/webn3ewbie/Streamlit-Asset-Analysis-Prediction-App)")
-
-   
+            st.subheader("[GitHub Repo ](https://github.com/webn3ewbie/Streamlit-Asset-Analysis-Prediction-App)")  
+            
     with st.container():
             st.subheader("[MACRO Terminal](https://macroquant.streamlit.app/)")
             components.iframe("https://macroquant.streamlitapp.com/?embedded=true",height =500)
@@ -105,11 +97,8 @@ if selected == "Projects":
               st.subheader("[GitHub Repo](https://github.com/webn3ewbie/crypto-investment-backtest)")
               st.write('Yes, you probably guessed it, my favorite color is red :)')
 
-
 if selected == "Blog":
     
-    
-
     with st.container():
         st.header("[Blog Hosted On Blockchain](https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C)")
         st.markdown(""" <style> .font {
@@ -120,7 +109,6 @@ if selected == "Blog":
                         unsafe_allow_html=True)
         components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/tnyzAnLPyOp7f1Jqt01MqOZ7MlmmEswyHC7iz0S3mFA/?embedded=true",height =800)
         
-######################
 # Contact
 ######################    
 if selected == "Contact":   
