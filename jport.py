@@ -118,7 +118,7 @@ if selected == "Blog":
             }
             </style> """,
                         unsafe_allow_html=True)
-        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/collection/",height =1000)
+        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/",height =1000,scrolling =True)
         
 ######################
 # Contact
