@@ -105,8 +105,7 @@ if selected == "Blog":
             font-size:20px ;
             font-family: 'MERRIWEATHER';
             }
-            </style> """,
-                        unsafe_allow_html=True)
+            </style> """)
         components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/tnyzAnLPyOp7f1Jqt01MqOZ7MlmmEswyHC7iz0S3mFA/?embedded=true",height =800)
         
 # Contact
