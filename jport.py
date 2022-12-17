@@ -88,7 +88,7 @@ if selected == "Projects":
              
     with st.container():
               st.subheader("[Crypto Historical Investment Calculator](https://bitcoins.streamlit.app/)")
-              components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/?embedded=true",height =500)
+              components.iframe("https://bitcoins.streamlitapp.com/?embedded=true",height =500)
               st.markdown('<p class="font"> This calculator allows you to explore how much a hypothetical historical investment in crypto assests would be worth today! </p>',unsafe_allow_html=True) 
               st.markdown('<p class="font"> Some Libraries used: streamlit, pandas, pycoingecko, datetime </p>',unsafe_allow_html=True)   
               st.subheader("[GitHub Repo](https://github.com/webn3ewbie/crypto-investment-backtest)")
@@ -104,10 +104,7 @@ if selected == "Blog":
             }
             </style> """,
                     unsafe_allow_html=True)
-        st.write(
-        f'<iframe src="https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C"></iframe>',
-        unsafe_allow_html=True,
-        )
+     components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/?embedded=true",height =500, unsafe_allow_html=True)
     
         
 # Contact
