@@ -107,7 +107,11 @@ if selected == "Blog":
             }
             </style> """,
                     unsafe_allow_html=True)
-        components.iframe("https://bitcoins.streamlitapp.com/?embedded=true",height =800)
+        st.write(
+        f'<iframe src="https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C"></iframe>',
+        unsafe_allow_html=True,
+        )
+    
         
 # Contact
 ######################    
