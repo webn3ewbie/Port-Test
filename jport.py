@@ -45,10 +45,7 @@ if selected == "Home":
         st.write("##")
         st.markdown('<p class="font"> I am a determined and enthusiastic indivdual with a passion for financial market and blockchain. recognized for bringing strategic perspective to projects and tool development. Team leader, able to inspire others to deliver solutions in a collaborative way. Highly productive with a passion for learning and applying new skills to improve project outcomes. Known for the ability to identify relevant issues and develop alternate paths to proceed. Strengths include: Achiever, Learner, Focus, Strategic, Futuristic.</p>',unsafe_allow_html=True)
         st.markdown('<p class="font"> I am  driven and detail oriented indivdual with the ability to thrive in high pressure enviroments</p>',unsafe_allow_html=True)
-        st.markdown('<p class="font"> I am skilled in Python, with an emphasis in Pandas, Numpy, and Streamlit. I am an active learner, currently studying machine learning, algorithms, and blockchain.</p>',unsafe_allow_html=True)
-        st.markdown('<p class="font">I enjoy furthering my knowledge and experience in financial analytics. Current passions are time series analysis andextracting data insights through statistical techniques and quantitative methods that enhance decision-making and drive competitive growth.</p>',unsafe_allow_html=True)
-        st.markdown('<p class="font"> I am seeking a position where I can use my skills to add business value and contribute to the success of my team. Eager to connect with you to learn more about what I can do to provide data-centric solutions for your organization.</p>',unsafe_allow_html=True) 
-   
+        
 if selected == "Projects":
     
     with st.container():
