@@ -102,13 +102,11 @@ if selected == "Blog":
             font-size:20px ;
             font-family: 'MERRIWEATHER';
             }
-            </style> """,
-                    unsafe_allow_html=True)
+            </style> """)
         components.iframe(src="https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C",height =500)
     
         
-# Contact
-######################    
+# Contact   
 if selected == "Contact":   
     st.header(":mailbox: Get In Touch With Me!")
     st.write("Please use this for business and collaboration purposes. I love to talk anything financial markets, blockchain, and programming. However please shoot me a DM on [twitter](https://openbbx.streamlit.app/) for those chats!")
