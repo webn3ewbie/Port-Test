@@ -98,9 +98,8 @@ if selected == "Blog":
     
     with st.container():
         st.header("[Blog Hosted On Blockchain](https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C)")
-        url = "https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C"
-        html = f'<iframe src="{url}" width="800" height="600"></iframe>'
-        st.markdown(html)
+        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C")
+        
     
         
 # Contact   
