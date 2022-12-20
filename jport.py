@@ -98,12 +98,7 @@ if selected == "Blog":
     
     with st.container():
         st.header("[Blog Hosted On Blockchain](https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C)")
-        st.markdown(""" <style> .font {
-            font-size:20px ;
-            font-family: 'MERRIWEATHER';
-            }
-            </style> """)
-        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C",height =800, scrolling =True)
+        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C",height =800,scrolling =True)
     
         
 # Contact   
