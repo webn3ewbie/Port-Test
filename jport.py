@@ -102,7 +102,7 @@ if selected == "Blog":
 
         st.header("Website Embedded in an iframe")
 
-        iframe = st.iframe(url, height=500)
+        st.iframe(url, height=500)
     
         
 # Contact   
