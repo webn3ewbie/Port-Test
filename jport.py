@@ -98,7 +98,7 @@ if selected == "Blog":
     
     with st.container():
         st.header("[Blog Hosted On Blockchain](https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C)")
-        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/?embedded=true",height =500)
+        components.iframe("https://mirror.xyz/0x05721B0aD76eC33DefB59Abd613E30FbF4b4127C/tnyzAnLPyOp7f1Jqt01MqOZ7MlmmEswyHC7iz0S3mFA/?embedded=true",height =500)
         
     
         
